@@ -1,0 +1,80 @@
+[
+
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "What are your favorite hobbies?",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "checkboxes",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Football",
+								"emoji": true
+							},
+							"value": "football"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Music",
+								"emoji": true
+							},
+							"value": "music"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Sleep",
+								"emoji": true
+							},
+							"value": "sleep"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Movies",
+								"emoji": true
+							},
+							"value": "movies"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Basketball",
+								"emoji": true
+							},
+							"value": "basketball"
+						}
+					],
+					"action_id": "actionId-0"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+			  {
+				"type": "button",
+				"text": {
+				  "type": "plain_text",
+				  "text": "Continue",
+				  "emoji": true
+				},
+				"value": "continue",
+				"action_id": "4"
+			  }
+			]
+		  }
+
+]

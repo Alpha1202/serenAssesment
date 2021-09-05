@@ -1,0 +1,35 @@
+[
+	
+		{
+			"type": "input",
+			"dispatch_action": true,
+			"element": {
+				"type": "plain_text_input",
+				"action_id": "three_digits",
+				"dispatch_action_config": {
+					"trigger_actions_on": ["on_character_entered"]
+				  }
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "What are the first 3 digits on the number scale?",
+				"emoji": true
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+			  {
+				"type": "button",
+				"text": {
+				  "type": "plain_text",
+				  "text": "Continue",
+				  "emoji": true
+				},
+				"value": "continue",
+				"action_id": "5"
+			  }
+			]
+		  }
+	
+]
